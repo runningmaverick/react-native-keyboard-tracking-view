@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
   s.authors      = "Wix.com"
   s.homepage     = package['homepage']
   s.license      = package['license']
-  s.platforms    = { :ios => "9.0", :tvos => "9.2" }
+  s.platforms    = { :ios => "10.0", :tvos => "9.2" }
 
   s.module_name  = 'ReactNativeKeyboardTrackingView'
 
-  s.source       = { :git => "https://github.com/wix/react-native-keyboard-tracking-view", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/runningmaverick/react-native-keyboard-tracking-view", :tag => "#{s.version}" }
   s.source_files  = "lib/**/*.{h,m}"
 
   s.dependency 'React'
