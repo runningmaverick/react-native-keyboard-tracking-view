@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <React/RCTViewManager.h>
-#import <React/RCTBridgeModule.h>
+#import "RCTViewManager.h"
+#import "RCTBridgeModule.h"
 
 @interface KeyboardTrackingViewManager : RCTViewManager
 @end
